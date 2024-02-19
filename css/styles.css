@@ -188,10 +188,10 @@ body {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-.team-container {
+/* .team-container {
   padding-top: 32px;
   padding-bottom: 32px;
-}
+} */
 
 .team-list {
   display: flex;
@@ -243,10 +243,10 @@ body {
   text-align: center;
 }
 /* ======== Portfolio section styles ========= */
-.portfolio-container {
+/* .portfolio-container {
   border: 1px solid #e7e9fc;
   padding: 32px 16px;
-}
+} */
 .studio-portfolio {
   padding: 120px 0 120px 0;
 }
@@ -277,9 +277,8 @@ body {
   height: auto;
 }
 .portfolio-list-data {
-  padding-left: 16px;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
 }
 .portfolio-list-title {
   font-weight: 500;
