@@ -220,7 +220,7 @@ body {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 .team-list-data {
-  padding: 32px 16px;
+  padding: 32px 0;
 }
 .team-list-title {
   font-weight: 500;
@@ -270,9 +270,9 @@ body {
   height: auto;
 }
 .portfolio-list-data {
-  border-top: none;
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
+  border-top: none;
 }
 .portfolio-list-title {
   font-weight: 500;
