@@ -236,6 +236,7 @@ body {
 }
 .team-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 24px;
 }
 
@@ -262,10 +263,10 @@ body {
   height: auto;
 }
 
-/* .team-list-data {
-  padding-top: 32px;
-  padding-bottom: 8px;
-} */
+.team-list-data {
+  padding: 32px 0;
+}
+
 .team-list-title {
   font-weight: 500;
   font-size: 20px;
@@ -281,16 +282,13 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
 }
-.team-list-social-media {
-  padding: 32px 0;
-}
 
 .team-social-list {
   display: flex;
   gap: 24px;
-  justify-content: space-around;
+  justify-content: center;
 }
-.team-social-list-icon-wrapper {
+.team-social-list-link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -301,8 +299,8 @@ body {
   fill: #f4f4fd;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.team-social-list-icon-wrapper:hover,
-.team-social-list-icon-wrapper:focus {
+.team-social-list-linkr:hover,
+.team-social-list-link:focus {
   background-color: #404bbf;
 }
 /* ======== Portfolio section styles ========= */
