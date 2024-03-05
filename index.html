@@ -634,11 +634,12 @@
         <div class="subscribe">
           <p class="subscribe-text">Subscribe</p>
           <form class="subscribe-form">
-            <label class="footer-form-label">
+            <label class="footer-form-label" for="email">
               <input 
               type="email" 
-              class="footer-email"
+              class="footer-form-input"
               name="email" 
+              id="email"
               placeholder="E-mail" 
               />
             </label>
@@ -657,8 +658,8 @@
         </div>
       </div>
     </footer>
-    <!-- Backdrop is-open -->
-    <is-open class="backdrop"> 
+    <!-- Backdrop  -->
+    <is-open class="backdrop is-open"> 
       <div class="modal">
         <button class="modal-close-btn" type="button">
           <svg
@@ -721,7 +722,7 @@
           </svg>
           </div>
         </div>
-        <div class="feedback-form-field-wrapper">
+        <div class="feedback-form-textarea-wrapper">
           <label for="user-comment" class="feedback-form-field-label">Comment</label>
           <textarea 
           class="feedback-form-massage"
