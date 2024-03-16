@@ -1070,7 +1070,7 @@ body {
   }
   .mobile-menu-adress-list {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     gap: 24px;
     margin-bottom: 48px;
   }
