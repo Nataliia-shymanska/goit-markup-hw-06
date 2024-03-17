@@ -32,7 +32,7 @@ body {
   background: #fff;
   color: #434455;
   font-family: 'Roboto', sans-serif;
-  overflow-y: scroll;
+  overflow-y: scroll !important;
 }
 
 .visually-hidden {
