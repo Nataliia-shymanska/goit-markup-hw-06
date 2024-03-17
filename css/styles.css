@@ -1071,7 +1071,7 @@ body {
     justify-content: center;
     align-items: center;
     border: 1px solid #e7e9fc;
-    border-radius: 100%;
+    border-radius: 50%;
     background-color: transparent;
     line-height: 0;
     fill: #2e2f42;
