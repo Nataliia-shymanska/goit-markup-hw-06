@@ -441,11 +441,11 @@ body {
 .footer-social-list-icon {
   fill: #f4f4fd;
 }
-/* .subscribe {
+.subscribe {
   display: flex;
   justify-content: center;
   flex-direction: column;
-} */
+}
 
 .subscribe-text {
   font-weight: 500;
